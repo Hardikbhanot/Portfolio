@@ -5,13 +5,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css -->
-    <!-- Bootstrap CSS
+    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
-    /> -->
+    />
+    <link rel="shortcut icon" href="favicon2.ico" type="image/x-icon" />
+    
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Hardik Bhanot</title>
@@ -23,34 +25,24 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <nav class="nav">
-          <a href="index.html" class="logo">Portfolio.</a>
+    
+        <nav class="navbar">
+            
+          <a class="navbar-brand logo" href="index.html">Portfolio.</a>
+        
+          <div class="burger">
           
-          <ul class="nav-list">
-            <li class="links">
-              <a href="index.html" class="nav-link">Home</a>
-            </li>
-            <li class="links">
-              <a href="#About" class="nav-link">About </a>
-            </li>
-            <!-- <li class="links">
-              <a href="#Skill" class="nav-link">Skills</a>
-            </li> -->
-            <li class="links">
-              <a href="#Contact" class="nav-link">Contact </a>
-            </li>
-          </ul>
-
-          <div class="bstyle">
-            <div class="burger">
-              <div class="line1"></div>
-              <div class="line2"></div>
-              <div class="line3"></div>
-            </div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
           </div>
-        </nav>
-      </div>
+          <ul class="nav-links class="navbar-nav">
+              <li class="nav-link nav-item"><a href="index.html">Home</a></li>
+              <li class="nav-link nav-item"><a href="#About">About</a></li>
+              <li class="nav-link nav-item"><a href="#Contact">Contact</a></li>
+          </ul>
+      </nav>
+      
     </header>
 
     <section class="home">
@@ -61,133 +53,84 @@
 <div class="scrolldown"></div>
 </a>
     </section>
-    <!-- <section id="2nd" class="sec2">
 
-      <div class="about">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,288L1440,64L1440,0L0,0Z"></path></svg>  
-      
-       
-        <h2 class="about-me">
-          About Me
-        </h2>
-        <div class="about-text">
-        <p>
-          Hi,I am Hardik.<br>A Web Developer and a student of Computer science <br>from P.G.D.A.V. College,Delhi University.<br>
-         
-        </p>
-        <p>
-          I like to take on challenges and try out different things.<br>
-          I like to watch tv series and cricket in my freetime.
-        </p>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,64L1440,224L1440,320L0,320Z"></path></svg>
-      </div>
-
-      <div class="about-responsive">
-        
-        <h2 class="about-me-responsive">
-          About Me
-        </h2>
-        <div class="about-text-responsive">
-        <p class="about-text-responsive">
-          Hi,I am Hardik.<br>A Web Developer and a student of Computer science <br>from P.G.D.A.V. College,Delhi University.<br>
-         
-        </p>
-        <p class="about-text-responsive">
-          I like to take on challenges and try out different things.<br>
-          I like to watch tv series and cricket in my freetime.
-        </p>
-      </div>
-      
-      </div>
-    <!-- </section>
-<section class="skill"> -->
-      
     <section class="about" id="About">
-      <h1>
-        About Me
-      </h1>
-      
-      <div class="about-sec">
-<div class="about-text">
+        
+       <h2>About Me</h2>
+       
+      <div class="row-2">
+    <div class="col">
+    <p>
+      Hi,I am Hardik.<br>A Web Developer and a student of Computer science from<br> P.G.D.A.V. College,Delhi University.<br>
+    I like to take on challenges and try out different things.<br>
+    I like to watch tv series and cricket in my freetime.
+    </p>
+    <a href="#Contact"><button class="btn" style="margin-bottom: 20px;">Contact </button></a>
+  </div>
+  <div class="col">
+    
+      <img src="sample-image.jpg" alt="">
   
-  <p>
-    Hi,I am Hardik.<br>A Web Developer and a student of Computer science from<br> P.G.D.A.V. College,Delhi University.<br>
-  I like to take on challenges and try out different things.<br>
-  I like to watch tv series and cricket in my freetime.
-  </p>
-  <a href="#Contact"><button class="btn">Contact </button></a>
-</div>
-<div class="row">
-  <div class="about-pic">
-    <img src="sample-image.jpg" alt="">
-
+    </div>
   </div>
-</div>
-</div>
-</section>
-<section class="skills" id="Skill">
-<!-- <div class="skills"> -->
-  <h2 class="my-skills">
-    My Skills
-  </h2>
-  <div class="wrap">
-    <div class="bar">
-        <h3>HTML</h3>
-        <span></span>
-        
-    </div>
-    <div class="bar">
-        <h3>CSS</h3>
-        <span></span>
-        
-    </div>
-    <div class="bar">
-        <h3>JavaScript</h3>
-        <span></span>
-        
-    </div>
-    <div class="bar">
-        <h3>C++</h3>
-        <span></span>
-        
-    </div>
-</div>
-<!-- </div> -->
-</section>
-    
-    <section class="contact" id="Contact">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,224L30,202.7C60,181,120,139,180,149.3C240,160,300,224,360,256C420,288,480,288,540,250.7C600,213,660,139,720,122.7C780,107,840,149,900,176C960,203,1020,213,1080,197.3C1140,181,1200,139,1260,138.7C1320,139,1380,181,1410,202.7L1440,224L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
-<div class="contact-me">
-  <span class="contact-text">Contact Me</span>
-</div>
-  <div class="social">
-    <ul>
-     
-      <li>
-      <a href="mailto:hardik.bhanot1@gmail.com" target="_blank"><i class="fas fab fa-envelope fa-2x"></i></a>
-    </li>
-      <li>
-      <a href="https://www.linkedin.com/in/hardik-bhanot/" target="_blank"><i class="fab fa-linkedin fa-6x"></i></a>
-    </li>
-      <li>
-      <a href="https://www.instagram.com/_.h.a.r.d.i.k.__/"  target="_blank"><i class="fab fa-instagram"></i></a>
-    </li>
-      <li>
-      <a href="https://github.com/Hardikbhanot" target="_blank"><i class="fab fa-github"></i></a>
-    </li>
-  </ul>
-  <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,0L34.3,42.7C68.6,85,137,171,206,208C274.3,245,343,235,411,192C480,149,549,75,617,74.7C685.7,75,754,149,823,181.3C891.4,213,960,203,1029,176C1097.1,149,1166,107,1234,112C1302.9,117,1371,171,1406,197.3L1440,224L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg> -->
   </div>
-  <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#333" fill-opacity="1" d="M0,224L30,213.3C60,203,120,181,180,149.3C240,117,300,75,360,90.7C420,107,480,181,540,213.3C600,245,660,235,720,218.7C780,203,840,181,900,181.3C960,181,1020,203,1080,229.3C1140,256,1200,288,1260,272C1320,256,1380,192,1410,160L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg> -->
+
+  </section>
+  <section class="skills" id="Skill">
+  
+    <h2 class="my-skills text-center">
+      My Skills
+    </h2>
+    <div class="wrap">
+      <div class="bar">
+          <h3>HTML</h3>
+          <span></span>
+          
+      </div>
+      <div class="bar">
+          <h3>CSS</h3>
+          <span></span>
+          
+      </div>
+      <div class="bar">
+          <h3>JavaScript</h3>
+          <span></span>
+          
+      </div>
+      <div class="bar">
+          <h3>C++</h3>
+          <span></span>
+          
+      </div>
+  </div>
+  
+  </section>
+
+
+  <section class="contact" id="Contact">
+<div class="svg">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,224L30,202.7C60,181,120,139,180,149.3C240,160,300,224,360,256C420,288,480,288,540,250.7C600,213,660,139,720,122.7C780,107,840,149,900,176C960,203,1020,213,1080,197.3C1140,181,1200,139,1260,138.7C1320,139,1380,181,1410,202.7L1440,224L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
+</div>
+<div class="contact-me text-center">
+<span class="contact-text">Contact Me</span>
+</div>
+<div class="social">
+  <ul>
+    <li>
+    <a href="mailto:hardik.bhanot1@gmail.com" target="_blank"><i class="fas fab fa-envelope fa-2x"></i></a>
+  </li>
+    <li>
+    <a href="https://www.linkedin.com/in/hardik-bhanot/" target="_blank"><i class="fab fa-linkedin fa-6x"></i></a>
+  </li>
+    <li>
+    <a href="https://www.instagram.com/_.h.a.r.d.i.k.__/"  target="_blank"><i class="fab fa-instagram"></i></a>
+  </li>
+    <li>
+    <a href="https://github.com/Hardikbhanot" target="_blank"><i class="fab fa-github"></i></a>
+  </li>
+</ul>
+</div>
 </section>
-<footer class="foot">
-
-</footer>  
-
-
-    
-    <script src="index.js"></script>
-  </body>
+<script src="index.js"></script>
+</body>
 </html>
