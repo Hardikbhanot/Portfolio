@@ -7,10 +7,14 @@ const svg= document.querySelector(".svg")
 const burger = document.querySelector(".burger")
 const links =document.querySelector(".nav-links")
 const link =document.querySelectorAll(".nav-link")
-
+const logo=document.querySelector(".logo")
+const nav= document.querySelector("nav")
 burger.addEventListener('click',()=>{
     links.classList.toggle("open")
     link.classList.toggle("fade")
+    link.classList.toggle("open")
+    logo.classList.toggle("open")
+    nav.classList.toggle("open")
 })
 
 window.addEventListener('scroll', function () {
